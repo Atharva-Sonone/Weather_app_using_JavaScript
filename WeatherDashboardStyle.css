@@ -1,0 +1,65 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, .4);
+    /* border: 5px black solid; */
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    text-align: center;  
+    color: white;    
+}
+
+.body{
+   height: 100vh;
+    background-image: linear-gradient(to bottom right, #55d0ff, #015e8d);
+
+}
+.searchCity{
+    border: 0;
+    width: 50%;
+    padding: 5px;
+    border-radius: 0px;
+    border-bottom: 2px solid white;
+    background: transparent;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.searchButton{
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    margin-left: 20px;
+    background-color: white;
+    border: 0px;
+    color: #00acdf;
+
+}
+.result h2{
+    /* width: 500px; */
+   margin-bottom: 40px;
+   font-weight: 1000;
+}
+.weather{
+    margin-bottom: -15px;
+}
+.desc{
+    margin-bottom: 40px;
+}
+.temp-container{
+    display: flex;
+    justify-content: center;
+}
+.temp-container div{
+    padding: 40px;
+    margin-top: -40px;
+}
+.msg{
+    margin-top: 25vh;
+}
+
+/* stromy weather #4B515D
+home page colour #C1CFEA */
